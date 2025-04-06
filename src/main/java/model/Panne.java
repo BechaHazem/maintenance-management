@@ -27,7 +27,6 @@ public class Panne {
 
     private LocalDate dateSignalement;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

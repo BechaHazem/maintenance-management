@@ -24,7 +24,6 @@ public class Technicien {
     @OneToMany(mappedBy = "technicien")
     private List<Intervention> interventions;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

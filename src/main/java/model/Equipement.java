@@ -21,7 +21,6 @@ public class Equipement {
 
     private LocalDate dateAcquisition;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
