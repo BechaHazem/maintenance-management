@@ -34,7 +34,7 @@ public class panneController {
 
 	}
 
-	@PostMapping("create")
+	@PostMapping("/create")
 	public PanneDTO createPanne(@RequestBody PanneDTO panneDTO) {
 
 		return panneService.savePanne(panneDTO);
